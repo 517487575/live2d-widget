@@ -72,7 +72,7 @@ function loadWidget(config) {
 		});
 		// 添加音乐按钮
 		document.querySelector("#waifu-tool .fa-music").addEventListener("click", () => {
-			document.querySelector("#music-box").style.display = "none"
+			document.querySelector("#music-box").style.display = "block"
 		})
 		// 换model
 		document.querySelector("#waifu-tool .fa-user-circle").addEventListener("click", loadOtherModel);

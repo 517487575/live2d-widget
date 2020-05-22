@@ -174,8 +174,8 @@
 		"selector": ".vcontent",
 		"text": ["哇，快看看这个精彩评论！", "如果有疑问，请尽快留言哦～"]
 	}, {
-		"selector": "#music-box",
-		"text": ["要听点歌嘛？一起听听看吧~", "一起听听歌吧~"]
+		"selector": "#waifu-tool .fa-music",
+		"text": ["要听点歌嘛？一起听听看吧~", "来一起听听歌吧~"]
 	}],
 	"click": [{
 		"selector": "#waifu #live2d",

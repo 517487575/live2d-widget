@@ -70,7 +70,14 @@ function loadWidget(config) {
 				document.head.appendChild(script);
 			}
 		});
+		// 添加音乐按钮
+		document.querySelector("#waifu-tool .fa-music").addEventListener("click", () => {
+			showMessage("要听点音乐嘛，一起来听吧~", 6000, 9);
+			document.querySelector("#music-box").style.display = "block"
+		})
+		// 换model
 		document.querySelector("#waifu-tool .fa-user-circle").addEventListener("click", loadOtherModel);
+		// 换装
 		document.querySelector("#waifu-tool .fa-street-view").addEventListener("click", loadRandModel);
 		document.querySelector("#waifu-tool .fa-camera-retro").addEventListener("click", () => {
 			showMessage("照好了嘛，是不是很可爱呢？", 6000, 9);
